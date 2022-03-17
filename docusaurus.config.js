@@ -3,11 +3,11 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const math = require('remark-math');
 
 
 async function createConfig() {
   const katex = (await import('rehype-katex')).default;
-  const math = (await import('remark-math')).default;
   /** @type {import('@docusaurus/types').Config} */
   const config = {
     title: 'Codec View',
@@ -31,9 +31,6 @@ async function createConfig() {
             showReadingTime: true,
             remarkPlugins: [math],
             rehypePlugins: [katex],
-            // Please change this to your repo.
-            // editUrl:
-            //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           },
           theme: {
             customCss: require.resolve('./src/css/custom.css'),
