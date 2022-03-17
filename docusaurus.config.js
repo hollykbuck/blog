@@ -10,15 +10,15 @@ async function createConfig() {
   const katex = (await import('rehype-katex')).default;
   /** @type {import('@docusaurus/types').Config} */
   const config = {
-    title: 'Codec View',
+    title: 'Buck\'s blog',
     tagline: 'Thoughts from another side.',
-    url: 'https://pdeantihuman.github.io/',
-    baseUrl: '/codec/',
+    url: 'https://holykbuck.github.io/',
+    baseUrl: '/blog/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/icon.ico',
-    organizationName: 'pdeantihuman', // Usually your GitHub org/user name.
-    projectName: 'docusaurus', // Usually your repo name.
+    organizationName: 'holykbuck', // Usually your GitHub org/user name.
+    projectName: 'blog', // Usually your repo name.
 
     presets: [
       [
@@ -73,7 +73,7 @@ async function createConfig() {
               ],
             },
           ],
-          copyright: `Copyright © ${new Date().getFullYear()} Paul Baran All rights reserved.`,
+          copyright: `Copyright © ${new Date().getFullYear()} Winston Defazio All rights reserved.`,
         },
         prism: {
           theme: lightCodeTheme,
