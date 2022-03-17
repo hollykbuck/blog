@@ -1,0 +1,28 @@
+---
+slug: mdx-blog-post
+title: Implement a RPC Protocol in C++
+authors: [paul]
+tags: [cpp]
+---
+
+$f(x)$
+
+$$
+f(x)
+$$
+
+RTL8852AE is a network card model that Lenovo's notebook and desktop computers like to use. RTL8852AE+AX201 provides Wi-Fi 6 experience. However, because this set of things is relatively new, the driver has not been incorporated into the kernel, so it needs to compile the kernel module to support it.
+
+Actually, the developer of RealTek has submitted the driver patch to Linux, but the code has not been incorporated into the kernel.
+Look at this patch https://lwn.net/ml/Linux-wireless/202012301527.izlr86em-lkp @ intel.com/
+https://patches.linaro.org/cover/463567/
+
+You can see that the folder rtw89 does not exist in the kernel. This folder should be/drivers/net/wireless/realtek/RTW 89.
+https://elixir.bootlin.com/linux/v5.15-rc6/source/drivers/net/wireless/realtek
+
+Good people in the community have changed rtw89 v5 to dkms kernel module.
+https://github.com/lwfinger/rtw89
+
+By following the README of rtw89, a kernel module can be compiled and installed in the system.
+
+The solution is the simplest in arch system, and the warehouse rtw89-dkms-git already exists in AUR.
