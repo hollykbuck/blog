@@ -4,9 +4,18 @@
         <title>Buck's blog Blog</title>
         <link>https://holykbuck.github.io/blog/</link>
         <description>Buck's blog Blog</description>
-        <lastBuildDate>Wed, 16 Mar 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 17 Mar 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[C++ Network Basics]]></title>
+            <link>https://holykbuck.github.io/blog/cpp-post</link>
+            <guid>cpp-post</guid>
+            <pubDate>Thu, 17 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hello world]]></description>
+            <content:encoded><![CDATA[<p>Hello world</p>]]></content:encoded>
+            <category>cpp</category>
+        </item>
         <item>
             <title><![CDATA[Implement a RPC Protocol in C++]]></title>
             <link>https://holykbuck.github.io/blog/mdx-blog-post</link>
@@ -18,7 +27,7 @@
 Look at this patch <a href="https://lwn.net/ml/Linux-wireless/202012301527.izlr86em-lkp" target="_blank" rel="noopener noreferrer">https://lwn.net/ml/Linux-wireless/202012301527.izlr86em-lkp</a> @ intel.com/
 <a href="https://patches.linaro.org/cover/463567/" target="_blank" rel="noopener noreferrer">https://patches.linaro.org/cover/463567/</a></p><p>You can see that the folder rtw89 does not exist in the kernel. This folder should be/drivers/net/wireless/realtek/RTW 89.
 <a href="https://elixir.bootlin.com/linux/v5.15-rc6/source/drivers/net/wireless/realtek" target="_blank" rel="noopener noreferrer">https://elixir.bootlin.com/linux/v5.15-rc6/source/drivers/net/wireless/realtek</a></p><p>Good people in the community have changed rtw89 v5 to dkms kernel module.
-<a href="https://github.com/lwfinger/rtw89" target="_blank" rel="noopener noreferrer">https://github.com/lwfinger/rtw89</a></p><p>By following the README of rtw89, a kernel module can be compiled and installed in the system.</p><p>The solution is the simplest in arch system, and the warehouse rtw89-dkms-git already exists in AUR.</p>]]></content:encoded>
+<a href="https://github.com/lwfinger/rtw89" target="_blank" rel="noopener noreferrer">https://github.com/lwfinger/rtw89</a></p><p>By following the README of rtw89, a kernel module can be compiled and installed in the system.</p><p>The solution is the simplest in arch system, and the warehouse rtw89-dkms-git already exists in AUR.</p><div></div>]]></content:encoded>
             <category>cpp</category>
         </item>
     </channel>
